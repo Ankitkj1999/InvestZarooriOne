@@ -1,0 +1,87 @@
+[debug] [2023-04-23T10:20:21.723Z] ----------------------------------------------------------------------
+[debug] [2023-04-23T10:20:21.725Z] Command:       /home/ankit/.nvm/versions/node/v16.4.0/bin/node /home/ankit/.nvm/versions/node/v16.4.0/bin/firebase init
+[debug] [2023-04-23T10:20:21.725Z] CLI Version:   11.28.0
+[debug] [2023-04-23T10:20:21.725Z] Platform:      linux
+[debug] [2023-04-23T10:20:21.725Z] Node Version:  v16.4.0
+[debug] [2023-04-23T10:20:21.726Z] Time:          Sun Apr 23 2023 15:50:21 GMT+0530 (India Standard Time)
+[debug] [2023-04-23T10:20:21.726Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-23T10:20:21.730Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-23T10:20:21.730Z] > authorizing via signed-in user (ankit.k.j1999@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/ankit/Documents/GitHub/new test
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-04-23T10:20:26.152Z] > refreshing access token with scopes: []
+[debug] [2023-04-23T10:20:26.154Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-23T10:20:26.154Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-23T10:20:26.923Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-04-23T10:20:26.923Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-23T10:20:26.923Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-04-23T10:20:28.509Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 401
+[debug] [2023-04-23T10:20:28.509Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-04-23T10:20:28.509Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-04-23T10:20:29.882Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/home/ankit/.nvm/versions/node/v16.4.0/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/home/ankit/.nvm/versions/node/v16.4.0/lib/node_modules/firebase-tools/lib/apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-04-23T10:20:39.294Z] ----------------------------------------------------------------------
+[debug] [2023-04-23T10:20:39.296Z] Command:       /home/ankit/.nvm/versions/node/v16.4.0/bin/node /home/ankit/.nvm/versions/node/v16.4.0/bin/firebase init
+[debug] [2023-04-23T10:20:39.296Z] CLI Version:   11.28.0
+[debug] [2023-04-23T10:20:39.296Z] Platform:      linux
+[debug] [2023-04-23T10:20:39.296Z] Node Version:  v16.4.0
+[debug] [2023-04-23T10:20:39.297Z] Time:          Sun Apr 23 2023 15:50:39 GMT+0530 (India Standard Time)
+[debug] [2023-04-23T10:20:39.297Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-23T10:20:39.301Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-23T10:20:39.301Z] > authorizing via signed-in user (ankit.k.j1999@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/ankit/Documents/GitHub/new test
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-04-23T10:21:07.126Z] > refreshing access token with scopes: []
+[debug] [2023-04-23T10:21:07.128Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-23T10:21:07.128Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-23T10:21:07.559Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2023-04-23T10:21:07.560Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-23T10:21:07.560Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-04-23T10:21:07.560Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"testone","name":"investzaroori"}
+[debug] [2023-04-23T10:21:09.300Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 401
+[debug] [2023-04-23T10:21:09.300Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"service":"cloudresourcemanager.googleapis.com","method":"google.cloudresourcemanager.v1.Projects.CreateProject"}}]}}
+[debug] [2023-04-23T10:21:09.927Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/home/ankit/.nvm/versions/node/v16.4.0/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/home/ankit/.nvm/versions/node/v16.4.0/lib/node_modules/firebase-tools/lib/apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
